@@ -28,7 +28,7 @@ h3 {
   padding: 1px;
   resize: none;
   border-color: black;
-  font-size: 20px;
+  font-size: 21px;
   font-family: "Special Elite";
 }
 
@@ -61,4 +61,8 @@ h3 {
   border-style: solid;
   border-color: black;
   border-radius: 100px;
+}
+#translateETM:hover {
+  background-color: #033310;
+  cursor: pointer;
 }

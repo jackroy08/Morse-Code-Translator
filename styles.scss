@@ -52,7 +52,7 @@ h3{
    justify-content: center;
    align-items: center;
    
-
+    
 }
 
 #translateETM{
@@ -65,4 +65,9 @@ h3{
     border-style:solid;
     border-color:black;
     border-radius: 100px;
+
+    &:hover{
+        background-color: #033310;
+        cursor: pointer;
+    }
 }
