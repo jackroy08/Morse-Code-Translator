@@ -1,68 +1,91 @@
 body {
-  background-color: #faefc3;
+  background-color: #EEEEEE;
 }
 
 h1 {
   text-align: center;
-  font-family: "Allerta Stencil";
+  font-family: "Nunito";
 }
 
 h2 {
   text-align: center;
-  font-family: "Allerta Stencil";
+  font-family: "Nunito";
 }
 
 h3 {
-  font-family: "Allerta Stencil";
+  font-family: "Nunito";
+  padding: 5px;
+  box-shadow: -4px -4px 4px 0 white, 4px 4px 4px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 300;
 }
 
 #container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 510px;
+  height: 740px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px 0 white, 4px 4px 4px 0 rgba(0, 0, 0, 0.03);
 }
 
 #initialtext {
-  height: 400px;
-  width: 600px;
+  height: 200px;
+  width: 450px;
   margin: 1px;
-  padding: 1px;
+  padding: 10px;
   resize: none;
-  border-color: black;
-  font-size: 21px;
-  font-family: "Special Elite";
+  background-color: #EEEEEE;
+  font-size: 20px;
+  font-family: "Nunito";
+  border: none;
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px 0 rgba(0, 0, 0, 0.03), 4px 4px 4px 0 white;
+}
+#initialtext:focus {
+  outline: 0;
 }
 
 #newText {
-  height: 400px;
-  width: 600px;
+  height: 200px;
+  width: 450px;
   margin: 1px;
-  padding: 1px;
-  background-color: white;
-  border-style: solid;
-  border-width: 1px;
-  font-family: "Special Elite";
+  padding: 10px;
+  font-family: "Nunito";
+  box-shadow: -4px -4px 4px 0 rgba(0, 0, 0, 0.03), 4px 4px 4px 0 white;
 }
 
 #submitbtn {
-  height: 400px;
-  width: 200px;
+  margin-top: 30px;
+  height: 100px;
+  width: 150px;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px 0 white, 4px 4px 4px 0 rgba(0, 0, 0, 0.03);
 }
 
 #translateETM {
-  height: 150px;
+  height: 100px;
   width: 150px;
-  font-family: "Allerta Stencil";
-  color: white;
-  background-color: #064718;
-  font-size: 30px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 100px;
+  font-family: "Nunito";
+  color: Black;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+#translateETM:focus {
+  outline: 0;
+  border: none;
+  box-shadow: -4px -4px 4px 0 rgba(0, 0, 0, 0.03), 4px 4px 4px 0 white;
 }
 #translateETM:hover {
-  background-color: #033310;
   cursor: pointer;
 }
