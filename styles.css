@@ -1,5 +1,10 @@
 body {
-  background-color: #EEEEEE;
+  background: linear-gradient(145deg, #78e6c1, #8effe5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
 }
 
 h1 {
@@ -15,8 +20,8 @@ h2 {
 h3 {
   font-family: "Nunito";
   padding: 5px;
-  box-shadow: -4px -4px 4px 0 white, 4px 4px 4px 0 rgba(0, 0, 0, 0.03);
-  border-radius: 5px;
+  border-radius: 12px;
+  background: #EEEEEE;
   text-align: center;
   font-weight: 300;
 }
@@ -24,13 +29,16 @@ h3 {
 #container {
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 510px;
   height: 740px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  box-shadow: -4px -4px 4px 0 white, 4px 4px 4px 0 rgba(0, 0, 0, 0.03);
+  background: #EEEEEE;
+  box-shadow: 20px 20px 60px #71d9b6, -20px -20px 60px #99fff6;
 }
 
 #initialtext {
@@ -43,8 +51,9 @@ h3 {
   font-size: 20px;
   font-family: "Nunito";
   border: none;
-  border-radius: 10px;
-  box-shadow: -4px -4px 4px 0 rgba(0, 0, 0, 0.03), 4px 4px 4px 0 white;
+  border-radius: 12px;
+  background: #EEEEEE;
+  box-shadow: inset 5px 5px 10px #b7b7b7, inset -5px -5px 10px #ffffff;
 }
 #initialtext:focus {
   outline: 0;
@@ -56,7 +65,9 @@ h3 {
   margin: 1px;
   padding: 10px;
   font-family: "Nunito";
-  box-shadow: -4px -4px 4px 0 rgba(0, 0, 0, 0.03), 4px 4px 4px 0 white;
+  border-radius: 12px;
+  background: #EEEEEE;
+  box-shadow: inset 5px 5px 10px #b7b7b7, inset -5px -5px 10px #ffffff;
 }
 
 #submitbtn {
@@ -68,8 +79,8 @@ h3 {
   justify-content: center;
   align-items: center;
   border-style: none;
-  border-radius: 10px;
-  box-shadow: -4px -4px 4px 0 white, 4px 4px 4px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  background: #EEEEEE;
 }
 
 #translateETM {
@@ -80,6 +91,9 @@ h3 {
   border: none;
   font-size: 20px;
   padding: 10px;
+  background: #EEEEEE;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px #c8c8c8, -5px -5px 10px #ffffff;
 }
 #translateETM:focus {
   outline: 0;
