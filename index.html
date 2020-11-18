@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English to Morse </title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Nunito'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
  
 </head>
 <body>
@@ -15,11 +15,10 @@
     <div id="container">
         <div>
             <h3>Enter text here:</h3>
-            <textarea  id="initialtext"></textarea>
+            <textarea type="text" oninput="convertETM()" id="initialtext"></textarea>
         </div>
-        <div id=submitbtn>
-            <button id="translateETM">Convert</button>
-        </div>
+    
+        
         <div>
             <h3>Morse code:</h3>
             <div id=textbox1>
